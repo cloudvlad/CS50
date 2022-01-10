@@ -1,0 +1,38 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quote
+{% endblock %}
+
+{% block main %}
+    <table>
+        <tr>
+            <th>Symbol</th>
+            <th>Name</th>
+            <th>Shares</th>
+            <th>Price</th>
+            <th>TOTAL</th>
+        </tr>
+
+    {% for data in dataset %}
+        <tr>
+            <td>{{data['symbol']}}</td>
+            <td>{{data['name']}}</td>
+            <td>{{data['shares']}}</td>
+            <td>{{data['price'] | usd}}</td>
+            <td>{{data['total'] | usd}}</td>
+        </tr>
+    {% endfor %}
+        <tr>
+            <td>CASH</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>{{cash | usd}}</td>
+        </tr>
+        <tr>
+            <td colspan="4"></td>
+            <td>{{total | usd}}</td>
+        </tr>
+    </table>
+{% endblock %}
