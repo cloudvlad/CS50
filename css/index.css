@@ -1,0 +1,24 @@
+.carousel-inner
+{
+        height: 90vh;
+}
+
+.btn-primary:hover
+{
+    background-color: red;
+}
+
+.navbar-nav
+{
+    font-size: 1.3vw;
+}
+
+.carousel-inner
+{
+    height: max-content;
+}
+
+
+
+
+

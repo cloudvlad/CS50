@@ -1,0 +1,556 @@
+
+main {
+    width: 100vw;
+    height: auto;
+
+    display: block;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    box-sizing: border-box;
+    text-align: center;
+    background-image: url("../pics/4.jpg");
+    background-size: cover;
+    overflow: auto;
+}
+
+main p {
+    height: 100%;
+    padding: 30px;
+    margin-bottom: 0;
+    font-family: 'Crimson Text', serif !important;
+    font-size: 2rem;
+    background-color: rgba(200, 200, 200, 0.75);
+    font-weight: 500;
+}
+
+main p span {
+    width: 100%;
+    font-size: 2.3rem;
+    text-align: center;
+    display: block;
+}
+
+#race-shower-wraper
+{
+    background-image: url("../pics/map.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px)
+{
+
+
+#fractions {
+    width: 100%;
+    min-height: 450px;
+    height: max-content;
+    display: block;
+    font-size: 1.5rem;
+    display: block;
+    text-align: center;
+    background-image: url("../pics/pergament.jpg");
+    background-size: cover;
+}
+
+#races-title {
+    width: 100%;
+    height: 10%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#fractions li:hover {
+    cursor: pointer;
+}
+
+#fractions div {
+    width: calc(100% / 2);
+    display: inline-block;
+}
+#fractions div ul {
+    list-style-type: none;
+    margin-top: 1rem;
+    padding-left: 0;
+}
+
+#race-shower {
+    height: 90%;
+    background-size: contain !important;
+    background-position: center;
+    background-repeat: no-repeat !important;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+#race-shower-wraper {
+    width: 100%;
+    height: auto;
+}
+
+#race-shower {
+    border: 0;
+    height: 50%;
+    float: left;
+}
+
+#race-logo, #race-image
+{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    width: 100vw;
+    height: 25vh;
+    background-size: contain !important;
+    background-position: center;
+    background-repeat: no-repeat !important;
+}
+
+#race-shower h2{
+    text-align: center;
+    height: 10%;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+#race-shower p{
+    text-align: center;
+    min-height: 20vh;
+    height: auto;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+#alliance {
+    float: left;
+
+}
+
+#horde {
+    float: right;
+
+}
+
+#fractions div img {
+    width: 20vw;
+    display: inline-block;
+    height: auto;
+}
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media all and (min-width: 600px) and (orientation: portrait)
+{
+
+#fractions {
+    width: 100%;
+    min-height: 500px;
+    height: max-content;
+    display: block;
+    font-size: 1.5rem;
+    display: block;
+    text-align: center;
+    background-image: url("../pics/pergament.jpg");
+    background-size: cover;
+}
+
+#races-title {
+    width: 100%;
+    height: 10%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#fractions li:hover {
+    cursor: pointer;
+}
+
+#fractions div {
+    width: calc(100% / 2);
+    display: inline-block;
+}
+#fractions div ul {
+    list-style-type: none;
+    margin-top: 1rem;
+    padding-left: 0;
+}
+
+#race-shower {
+    height: 90%;
+    background-size: contain !important;
+    background-position: center;
+    background-repeat: no-repeat !important;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+#race-shower-wraper {
+    width: 100%;
+    height: auto;
+}
+
+#race-shower {
+    border: 0;
+    height: 50%;
+    float: left;
+}
+
+#race-logo, #race-image
+{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    width: 100vw;
+    height: 35vh;
+    background-size: contain !important;
+    background-position: center;
+    background-repeat: no-repeat !important;
+}
+
+#race-shower h2{
+    text-align: center;
+    height: 10%;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+#race-shower p{
+    text-align: center;
+    min-height: 20vh;
+    height: auto;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+#alliance {
+    float: left;
+
+}
+
+#horde {
+    float: right;
+
+}
+
+#fractions div img {
+    width: 20vw;
+    display: inline-block;
+    height: auto;
+}
+}
+
+
+
+
+/* Small devices (landscape tablets and large phones, 600px and up) */
+@media all and (min-width: 600px) and (orientation: landscape)
+{
+
+#fractions {
+    width: 100%;
+    min-height: 500px;
+    height: max-content;
+    display: block;
+    font-size: 1.5rem;
+    display: block;
+    text-align: center;
+    background-image: url("../pics/pergament.jpg");
+    background-size: cover;
+}
+
+#races-title {
+    width: 100%;
+    height: 10%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#fractions li:hover {
+    cursor: pointer;
+}
+
+#fractions div {
+    width: calc(100% / 2);
+    display: inline-block;
+}
+#fractions div ul {
+    list-style-type: none;
+    margin-top: 1rem;
+    padding-left: 0;
+}
+
+#race-shower {
+    height: 90%;
+    background-size: contain !important;
+    background-position: center;
+    background-repeat: no-repeat !important;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+#race-shower-wraper {
+    width: 100%;
+    height: auto;
+}
+
+#race-shower {
+    border: 0;
+    height: 50%;
+    float: left;
+}
+
+#race-logo, #race-image
+{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    width: 100vw;
+    height: 35vh;
+    background-size: contain !important;
+    background-position: center;
+    background-repeat: no-repeat !important;
+}
+
+#race-shower h2{
+    text-align: center;
+    height: 10%;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+#race-shower p{
+    text-align: center;
+    min-height: 20vh;
+    height: auto;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+#alliance {
+    float: left;
+
+}
+
+#horde {
+    float: right;
+
+}
+
+#fractions div img {
+    width: 20vw;
+    display: inline-block;
+    height: auto;
+}
+}
+
+
+@media only screen and (min-width: 768px)
+{
+
+#fractions {
+    width: 100%;
+    min-height: 600px;
+    height: max-content;
+    display: block;
+    font-size: 1.5rem;
+    display: block;
+    text-align: center;
+    background-image: url("../pics/pergament.jpg");
+    background-size: cover;
+}
+
+#races-title {
+    width: 100%;
+    height: 10%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#fractions li:hover {
+    cursor: pointer;
+}
+
+#fractions div {
+    width: calc(100% / 2);
+    display: inline-block;
+}
+#fractions div ul {
+    list-style-type: none;
+    margin-top: 1rem;
+    padding-left: 0;
+}
+
+#race-shower-wraper {
+    width: 100%;
+    height: 60vh;
+}
+
+#race-shower {
+    display: inline-block;
+    border: 0;
+    height: 100%;
+    width: calc(99% - 70vh);
+    float: left;
+}
+
+#race-logo, #race-image
+{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    width: 35vh;
+    height: 100%;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+
+}
+
+
+#race-shower h2{
+    text-align: center;
+    font-size: 2rem;
+    height: 10%;
+    width: 100%;
+    font-weight: 500;
+    margin-bottom: 0;
+
+}
+#race-shower p{
+    height: 90%;
+    width: 100%;
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 0;
+    padding: 1vw;
+}
+
+#fractions div img {
+    width: 10vw;
+    display: inline-block;
+    height: auto;
+}
+}
+}
+
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px)
+{
+
+#fractions {
+    width: 100%;
+    height: 80vh;
+    display: block;
+    font-size: 1.5rem;
+    display: block;
+    text-align: center;
+    background-image: url("../pics/pergament.jpg");
+    background-size: cover;
+}
+
+#races-title {
+    width: 100%;
+    height: 10%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#fractions li:hover {
+    cursor: pointer;
+}
+
+#fractions div {
+    width: calc(100% / 2);
+    display: inline-block;
+}
+#fractions div ul {
+    font-size: 1.75rem;
+    list-style-type: none;
+    margin-top: 1rem;
+    padding-left: 0;
+}
+
+
+#race-shower-wraper {
+    width: 100%;
+    height: 35vh;
+}
+
+#race-shower {
+    display: inline-block;
+    border: 0;
+    height: 100%;
+    width: calc(99% - 70vh);
+    float: left;
+}
+
+#race-logo, #race-image
+{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    width: 35vh;
+    height: 100%;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+
+}
+
+
+#race-shower h2{
+    text-align: center;
+    font-size: 2rem;
+    height: 10%;
+    width: 100%;
+    font-weight: 500;
+    margin-bottom: 0;
+
+}
+#race-shower p{
+    height: 90%;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 0;
+    padding: 1vw;
+}
+
+#fractions div img {
+    width: 10vw;
+    display: inline-block;
+    height: auto;
+}
+}
+
+

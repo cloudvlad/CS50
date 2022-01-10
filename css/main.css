@@ -1,0 +1,26 @@
+/*
+----------------------------------
+            Navigation
+----------------------------------
+*/
+html {
+    overflow-x: hidden;
+}
+
+.jumbotron {
+    margin-bottom: 0;
+}
+
+footer {
+    background-color: #fff;
+    border-top: 1px solid black;
+    display: block;
+}
+
+.nav-item
+{
+    font-size: 1.3rem;
+}
+.navbar-brand {
+    font-size: 1.5rem;
+}

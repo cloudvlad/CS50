@@ -1,0 +1,256 @@
+body, html {
+        width: 100vw;
+        height: 200vh;
+        background-image: url("../pics/bg.jpg");
+        background-attachment: fixed;
+    }
+main {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px)
+{
+    .vid-section {
+        width: 100%;
+        min-height: 600px;
+        max-height: 1000px;
+        height: auto;
+        display: block;
+        padding-bottom: 5vw;
+        background-color: rgba(200, 200, 200, 0.75)
+    }
+
+    .vid-section iframe {
+        display: block;
+        box-sizing: content-box;
+        padding-left: calc((100% - 300px) / 2);
+        padding-top: 60px;
+        width: 300px;
+        height: 170px;
+        border: 0;
+        float: left;
+    }
+
+    .vid-section p {
+        display: block;
+        width: 100%;
+        float: right;
+        padding: 10px;
+        padding-top: 15vw;
+        font-size: 1.2rem;
+    }
+
+    .vid-section p span {
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+        font-size: 1.3rem;
+        font-weight: 500;
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media all and (min-width: 600px) and (orientation: landscape)
+{
+    .vid-section {
+        width: 100%;
+        min-height: 600px;
+        height: auto;
+        display: block;
+        padding-bottom: 5vw;
+        background-color: rgba(200, 200, 200, 0.75)
+    }
+
+    .vid-section iframe {
+        display: block;
+        box-sizing: content-box;
+        padding-left: calc((100% - 300px) / 2);
+        padding-top: 60px;
+        width: 300px;
+        height: 170px;
+        border: 0;
+        float: left;
+    }
+
+    .vid-section p {
+        display: block;
+        width: 100%;
+        float: right;
+        padding: 10px;
+        padding-top: 15vw;
+        font-size: 1.4rem;
+    }
+
+    .vid-section p span {
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+        font-size: 1.6rem;
+        font-weight: 500;
+    }
+}
+
+@media all and (min-width: 600px) and (orientation: portrait)
+{
+    .vid-section {
+        width: 100%;
+        height: 500px;
+        display: block;
+        padding-bottom: 5vw;
+        background-color: rgba(200, 200, 200, 0.75)
+    }
+
+    .vid-section iframe {
+        display: block;
+        box-sizing: content-box;
+        padding-left: calc((100% - 300px) / 2);
+        padding-top: 30px;
+        width: 300px;
+        height: 170px;
+        border: 0;
+        float: left;
+    }
+
+    .vid-section p {
+        display: block;
+        width: 100%;
+        float: right;
+        padding: 10px;
+        padding-top: 40px;
+        font-size: 1rem;
+    }
+
+    .vid-section p span {
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+        font-size: 1.3rem;
+        font-weight: 500;
+    }
+}
+
+@media only screen and (min-width: 768px)
+{
+    body, html {
+        width: 100vw;
+        height: 200vh;
+        background-image: url("../pics/bg.jpg");
+        background-attachment: fixed;
+    }
+
+    main {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .vid-section {
+        width: 100%;
+        height: 55vh;
+        max-height: 500px;
+        display: block;
+        padding-bottom: 5vw;
+        background-color: rgba(200, 200, 200, 0.75)
+    }
+
+    .vid-section iframe {
+        display: block;
+        box-sizing: content-box;
+        padding-left: calc((100% - 300px) / 2);
+        padding-top: 30px;
+        width: 300px;
+        height: 170px;
+        border: 0;
+        float: left;
+    }
+
+    .vid-section p {
+        display: block;
+        width: 100%;
+        float: right;
+        padding: 20px;
+        padding-top: 40px;
+        font-size: 1.5rem;
+    }
+
+    .vid-section p span {
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+        font-size: 1.75rem;
+        font-weight: 500;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px)
+{
+    body, html {
+        width: 100vw;
+        height: 200vh;
+        background-image: url("../pics/bg.jpg");
+        background-attachment: fixed;
+    }
+
+    main {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .vid-section {
+        width: 100%;
+        height: 25vw;
+        display: block;
+        border-bottom: 1px solid black;
+        padding-bottom: 5vw;
+    }
+
+    .vid-section iframe {
+        box-sizing: content-box;
+        padding-left: 7vw;
+        padding-top: 5vw;
+        width: 25vw;
+        height: 14vw;
+        border: 0;
+        float: left;
+    }
+
+    .vid-section p {
+        display: inline-block;
+        padding-top: 5vw;
+        padding-bottom: 5vw;
+        width: 50vw;
+        float: right;
+        margin-right: 7vw;
+        font-size: 1.45vw;
+    }
+
+    .vid-section p span {
+        font-size: 1.75vw;
+        font-weight: 500;
+    }
+}
+
+
+
+/* Common CSS rules */
+
+main .vid-section:nth-child(odd)
+    {
+        color: black;
+        background-color: rgba(200, 200, 200, 0.75)
+    }
+
+    main .vid-section:nth-child(even)
+    {
+        color: white;
+        background-color: rgba(0, 0, 0, 0.75)
+    }
