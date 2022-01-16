@@ -21,8 +21,8 @@ Projects done while studying Harvard University's Introduction to Computer Scien
     <img src="https://i.imgur.com/EOSOz8T.png" width="100%" alt="-line separator-">
 </p>
 
-## :heavy_check_mark: Applications
-<!-- Sorry for the HTML usage here 😟-->
+## :heavy_check_mark: Problem Sets
+<!-- Sorry for the HTML usage here-->
 <details>
 <summary>Problem Set 1 - C</summary>
 <ul>
